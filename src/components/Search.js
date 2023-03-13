@@ -10,12 +10,12 @@ function Search({ details }) {
 
   const filteredPersons = details.filter(
     person => {
-      return (
-        person
-        .sbtid
-        .toString()
-        .includes(searchField.toLowerCase()) // check if id includes the search string
-      );
+        return (
+          person
+          .sbtid
+          .toString()
+          .toLowerCase() === searchField.toLowerCase() // check if id exactly matches the search string
+        );
     }
   );
 
@@ -29,12 +29,12 @@ function Search({ details }) {
     }
   };
   function searchList() {
-    if (searchShow) {
-      return (
-        <Scroll>
-          <SearchList filteredPersons={filteredPersons} />
-        </Scroll>
-      );
+    if (searchShow && filteredPersons.length > 0) {
+        return (
+          <Scroll>
+            <SearchList filteredPersons={filteredPersons} />
+          </Scroll>
+        );
     }
   }
 

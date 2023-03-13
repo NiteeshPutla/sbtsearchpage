@@ -1,6 +1,6 @@
 const studentSbts = [
     {
-      sbtid:10,
+      sbtid:1,
       imgPath: "../assets/img/Prasasti.jpeg",
       FirstName: "Uday kiran",
       LastName: "Agraharam",
@@ -12,7 +12,7 @@ const studentSbts = [
     
     },
     {
-        sbtid:11,
+        sbtid:2,
         imgPath: "../assets/img/Prasasti.jpeg",
         FirstName: "Mahima aishwarya",
         LastName: "Avidi",
@@ -24,7 +24,7 @@ const studentSbts = [
         
     },
     {
-        sbtid:12,
+        sbtid:3,
         imgPath: "../assets/img/Prasasti.jpeg",
         FirstName: "Rohit",
         LastName: "V",
@@ -36,7 +36,7 @@ const studentSbts = [
         
     },
     {
-        sbtid:13,
+        sbtid:4,
         imgPath: "../assets/img/Prasasti.jpeg",
         FirstName: "Aravinda",
         LastName: "Bhedikala",
@@ -48,7 +48,7 @@ const studentSbts = [
        
     },
     {
-        sbtid:14,
+        sbtid:5,
         imgPath: "../assets/img/Prasasti.jpeg",
         FirstName: "Gangothri",
         LastName: "Perugu",
@@ -60,7 +60,7 @@ const studentSbts = [
         
     },
     {
-        sbtid:15,
+        sbtid:6,
         imgPath: "../assets/img/Prasasti.jpeg",
         FirstName: "Bharath reddy",
         LastName: "Komrelly",
@@ -72,7 +72,7 @@ const studentSbts = [
       
     },
     {
-        sbtid:16,
+        sbtid:7,
         imgPath: "../assets/img/Prasasti.jpeg",
         FirstName: "Saher",
         LastName: "Fatima",
@@ -84,7 +84,7 @@ const studentSbts = [
         
     },
     {
-        sbtid:17,
+        sbtid:8,
         imgPath: "../assets/img/Prasasti.jpeg",
         FirstName: "Maheen",
         LastName: "Fatima",
@@ -96,7 +96,7 @@ const studentSbts = [
         
     },
     {
-        sbtid:18,
+        sbtid:9,
         imgPath: "../assets/img/Prasasti.jpeg",
         FirstName: "Mounika",
         LastName: "Duramgari",
@@ -108,7 +108,7 @@ const studentSbts = [
        
     },
     {
-        sbtid:19,
+        sbtid:10,
         imgPath: "../assets/img/Prasasti.jpeg",
         FirstName: "Jayavaedhan",
         LastName: "Golla",
@@ -120,7 +120,7 @@ const studentSbts = [
         
     },
     {
-        sbtid:20,
+        sbtid:11,
         imgPath: "../assets/img/Prasasti.jpeg",
         FirstName: "Uday kiran",
         LastName: "Agraharam",
@@ -132,7 +132,7 @@ const studentSbts = [
        
     },
     {
-        sbtid:21,
+        sbtid:12,
         imgPath: "../assets/img/Prasasti.jpeg",
         FirstName: "Nidhi",
         LastName: "Singh",

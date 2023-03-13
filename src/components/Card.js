@@ -24,7 +24,7 @@ function Card({person}) {
 
   return(
     <div className="tc bg-light-blue dib br3 pa3 ma2 grow bw2 shadow-5">
-      <img className="br-100 h3 w3 dib" alt={person.sbtid} src={PrasastiImage} />
+      <img className="br-100 h3 w3 dib" alt={person.sbtid} src="https://drive.google.com/uc?export=view&id=11xQI4Zgx5KX-pdlVVHgPTUDhzQviWbW0" />
       <div>
         <label htmlFor="sbtid">SBT ID:</label>
         <p>{person.sbtid}</p>

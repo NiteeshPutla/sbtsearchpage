@@ -1,4 +1,5 @@
 import React from 'react';
+import PrasastiImage from "../assets/img/Prasasti.jpeg"
 
 function Card({person}) {
   const shareOnFacebook = () => {
@@ -7,7 +8,7 @@ function Card({person}) {
   };
   
   const shareOnTwitter = () => {
-    const url = `https://twitter.com/intent/tweet?url=${encodeURIComponent(window.location.href)}&text=${encodeURIComponent(`Check out ${person.FirstName} ${person.LastName}'s Award for  ${person.Awardname} issued by Prasasti`)}`;
+    const url = `https://twitter.com/intent/tweet?url/library?AssetPath=${encodeURIComponent({PrasastiImage})}&${encodeURIComponent(window.location.href)}&text=${encodeURIComponent(`Check out ${person.FirstName} ${person.LastName}'s Award for  ${person.Awardname} issued by Prasasti`)}`;
     window.open(url, '_blank', 'height=500,width=700');
   };
   
@@ -23,7 +24,7 @@ function Card({person}) {
 
   return(
     <div className="tc bg-light-blue dib br3 pa3 ma2 grow bw2 shadow-5">
-      <img className="br-100 h3 w3 dib" alt={person.sbtid} src={"../assets/img/Prasasti.jpeg"} />
+      <img className="br-100 h3 w3 dib" alt={person.sbtid} src={PrasastiImage} />
       <div>
         <label htmlFor="sbtid">SBT ID:</label>
         <p>{person.sbtid}</p>

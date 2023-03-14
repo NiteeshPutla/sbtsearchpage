@@ -45,10 +45,10 @@ function Card({person}) {
 
         <li>{person.SoulID}</li>
         <div>
-        <button onClick={shareOnFacebook} style={{ fontSize: '14px', padding: '6px 12px' }}>Share on Facebook</button>
-        <button onClick={shareOnTwitter} style={{ fontSize: '14px', padding: '6px 12px' }}>Share on Twitter</button>
-        <button onClick={shareOnLinkedIn} style={{ fontSize: '14px', padding: '6px 12px' }}>Share on LinkedIn</button>
-        <button onClick={shareOnInstagram} style={{ fontSize: '14px', padding: '6px 12px' }}>Share on Instagram</button>
+        <button onClick={shareOnFacebook} style={{ fontSize: '14px', padding: '8px 12px',color:'white',backgroundColor:'#B08687',borderRadius: '10px' }}>Share on Facebook</button>
+        <button onClick={shareOnTwitter} style={{ fontSize: '14px', padding: '8px 12px',color:'black',backgroundColor:'#FDBFFC',borderRadius: '10px' }}>Share on Twitter</button>
+        <button onClick={shareOnLinkedIn} style={{ fontSize: '14px', padding: '8px 12px',color:'white',backgroundColor:'#998EA6',borderRadius: '10px' }}>Share on LinkedIn</button>
+        <button onClick={shareOnInstagram} style={{ fontSize: '14px', padding: '8px 12px',color:'white',backgroundColor:'blue',borderRadius: '10px' }}>Share on Instagram</button>
 
         </div>
       </div>

@@ -22,7 +22,7 @@ function App() {
         <Route path="/contactus" element={<Contactus />} />
       </Routes>
 
-      <div className="tc bg-green ma0 pa4 min-vh-100">
+      <div className="tc bg-inherit ma0 pa4 min-vh-100">
       <Search details={studentSbts}/>
     </div>
     </>

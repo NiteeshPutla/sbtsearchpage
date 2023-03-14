@@ -23,8 +23,8 @@ function Card({person}) {
   };
 
   return(
-    <div className="tc bg-light-blue dib br3 pa3 ma2 grow bw2 shadow-5">
-      <img className="br-100 h3 w3 dib" alt={person.sbtid} src="https://drive.google.com/uc?export=view&id=11xQI4Zgx5KX-pdlVVHgPTUDhzQviWbW0" />
+    <div className="tc bg-light-blue dib br3 pa3 ma2  bw2 shadow-5">
+      <img className="br-100 h5 w5 dib" alt={person.sbtid} src="https://drive.google.com/uc?export=view&id=11xQI4Zgx5KX-pdlVVHgPTUDhzQviWbW0" />
       <div>
         <label htmlFor="sbtid">SBT ID:</label>
         <p>{person.sbtid}</p>
@@ -45,10 +45,11 @@ function Card({person}) {
 
         <li>{person.SoulID}</li>
         <div>
-          <button onClick={shareOnFacebook}>Share on Facebook</button>
-          <button onClick={shareOnTwitter}>Share on Twitter</button>
-          <button onClick={shareOnLinkedIn}>Share on LinkedIn</button>
-          <button onClick={shareOnInstagram}>Share on Instagram</button>
+        <button onClick={shareOnFacebook} style={{ fontSize: '14px', padding: '6px 12px' }}>Share on Facebook</button>
+        <button onClick={shareOnTwitter} style={{ fontSize: '14px', padding: '6px 12px' }}>Share on Twitter</button>
+        <button onClick={shareOnLinkedIn} style={{ fontSize: '14px', padding: '6px 12px' }}>Share on LinkedIn</button>
+        <button onClick={shareOnInstagram} style={{ fontSize: '14px', padding: '6px 12px' }}>Share on Instagram</button>
+
         </div>
       </div>
     </div>

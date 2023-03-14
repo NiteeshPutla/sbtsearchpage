@@ -50,7 +50,7 @@ function Search({ details }) {
       </div>
       <div className="pa2">
         <input 
-          className="pa3 bb br3 grow b--none bg-lightest-blue ma3"
+          className="pa3 bb br3  b--none bg-lightest-blue ma3"
           type = "search" 
           placeholder = "Input Your SBT Id" 
           onChange = {handleChange}

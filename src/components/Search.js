@@ -44,7 +44,7 @@ function Search({ details }) {
       <div className="navy georgia ma0 grow">
       <center>
         <h1>Welcome to the world of Prasasti</h1>
-        <h3>View your Achivements on blockchain.</h3>
+        <h3>View your Achievements on blockchain.</h3>
         <p>Enter Your SBT ID</p>
         </center>
       </div>

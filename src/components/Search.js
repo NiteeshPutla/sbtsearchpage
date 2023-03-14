@@ -49,12 +49,25 @@ function Search({ details }) {
         </center>
       </div>
       <div className="pa2">
-        <input 
-          className="pa3 bb br3  b--none bg-lightest-blue ma3"
-          type = "search" 
-          placeholder = "Input Your SBT Id" 
-          onChange = {handleChange}
-        />
+          {/* <label htmlFor="searchInput">
+          <img src="https://cdn2.iconfinder.com/data/icons/thick-outlines-online-project-basics/128/20-blue_search-find-glass-64.png" alt="Search Icon" style={{ width: '60px', height: '60px' }} />
+          </label> */}
+                  <input 
+            className="pa3 bb br3 b--none bg-lightest-blue ma3"
+            type="search" 
+            id="searchInput"
+            placeholder="Input Your SBT Id" 
+            style={{ 
+              width: '300px', 
+              height: '60px',
+              backgroundImage: 'url(https://cdn2.iconfinder.com/data/icons/search-outline-24-px/24/files_and_folders_archive_zoom_magnifying_glass_search-64.png)',
+              backgroundPosition: 'right center',
+              backgroundRepeat: 'no-repeat',
+              paddingLeft: '40px', 
+              paddingRight:'60px'
+            }}
+            onChange={handleChange}
+          />
       </div>
       {searchList()}
     </section>
